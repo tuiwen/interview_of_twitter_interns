@@ -17,8 +17,7 @@
 
 3. Spring IOC基础测试，从github上下载以下代码，然后按照说明一步一步完成 IOC 的测试
 
-   https://github.com/liguobao/spring-ioc-sample
-
+   https://gitee.com/yangbigrm/spring-ioc-sample/blob/master/readme.md
 
 ### Python
 
