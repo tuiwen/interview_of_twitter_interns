@@ -86,9 +86,13 @@ python gen_data.py 100000 > data10.txt
    例如 $n=6$ 的时候，这个方程有组不同的解：
 
    $\frac{1}{7} + \frac{1}{42} = \frac{1}{6}$
+
    $\frac{1}{8} + \frac{1}{24} = \frac{1}{6}$
+
    $\frac{1}{9} + \frac{1}{18} = \frac{1}{6}$
+
    $\frac{1}{10} + \frac{1}{15} = \frac{1}{6}$
+
    $\frac{1}{12} + \frac{1}{12} = \frac{1}{6}​$
 
    编程求解问题：
