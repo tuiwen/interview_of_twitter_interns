@@ -4,7 +4,7 @@
 
 - <span style="color:red">以下题目都是编程题，上网查资料完成以下题目；程序和运行**结果截图**，发到  **hr@babelchain.org** 或者微信发给HR小姐姐。</span>
 
-- **<span style="color:red">题目不需要全部都做，只做你擅长的编程语言对应的题目。</span>**
+- **<span style="color:red">题目不需要全部都做，使用你擅长的编程语言做你会做的题目。</span>**
 
 
 
@@ -14,10 +14,10 @@
  1. 写一个程序，统计一下 C 盘下面有多少个 .dll 文件；如果你是 Mac 或者 Linux 系统，统计一下 /usr 目录下有多少个 .so 文件
 
 
- 2. mkdate是一个用不同语言写的，生成随机日期的程序，下载mkdate，完成下面的任务。mkdate 下载链接
+ 2. mkdate 是一个用不同语言写的（Java，C++，Bash，Python，JavaScript），生成随机日期的程序，下载mkdate，完成下面的任务。mkdate 下载链接
 https://gitee.com/yangbigrm/interview_of_twitter_interns/tree/master/mkdate
 
-- 2.1 运行 mkdate 程序，生成10万条数据 `./mkdate 10 > date10.txt`
+- 2.1 编译并运行 mkdate 程序，生成10万条数据 `./mkdate 10 > date10.txt`（5种语言里选你会的，注意 Java 应编译为jar）
 - 2.2 文件的每一行是一个日期，但是这些日期并不都是正确的，你需要修复这些日期。修复采取就近修复的原则；例如：`2010-2-30 6:5:13`，没有2月30日，就近修复到 `2010-3-1 6:5:13`
 - 2.3 把文件中所有恰好是星期日的数据（例如2010-1-31是星期日），存到一个 excel 文件中。注意日期要排序。
 - 2.4 生成500万条数据，存到文件 `./mkdate 500 > date500.txt`，取出时间离今天时间最近的1000条，存到 Excel 文件中。
