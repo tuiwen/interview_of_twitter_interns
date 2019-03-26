@@ -8,52 +8,20 @@
 
 
 
-### JAVA
+### 编程问题
 
-1. 写一个程序，统计一下 JDK 下面有多少个 .java 文件，多少个.xml 文件
-2. Groovy是很流行的一种基于JVM的脚本语言。请在你的开发环境中安装Groovy，并启动一个 HTTPServer，我们可以用浏览器访问 http://localhost:8000/ 访问，能够返回 helloworld。
 
-   http://groovy-lang.org/documentation.html
+ 1. 写一个程序，统计一下 C 盘下面有多少个 .dll 文件；如果你是 Mac 或者 Linux 系统，统计一下 /usr 目录下有多少个 .so 文件
 
-3. Spring IOC基础测试，从github上下载以下代码，然后按照说明一步一步完成 IOC 的测试
 
-   https://gitee.com/yangbigrm/spring-ioc-sample/blob/master/readme.md
+ 2. mkdate是一个用不同语言写的，生成随机日期的程序，下载mkdate，完成下面的任务。mkdate 下载链接
+https://gitee.com/yangbigrm/interview_of_twitter_interns/tree/master/mkdate
 
-### Python
-
-从 github 下载这个地址的代码，另存为 gen_data.py
-
-https://gitee.com/yangbigrm/codes/ni1s50gpj2zoylvm76hcu42
-
-安装 python 的包 XlsxWriter
-
-运行程序
-
-```
-python gen_data.py 10
-```
-
-你可以看到输出的结果，是10条日期数据，注意日期的格式
-
-好，现在生成10万条数据，并保存到 `data10.txt`中
-
-```
-python gen_data.py 100000 > data10.txt
-```
-
-- 问题1：
-
-1.1 读取这个文件，按时间顺序排序
-
-1.2 把属于 2005-2015 年的数据，存到一个excel 表格中
-
-1.3 对于生成的表格中，**闰年闰月**的数据，高亮显示
-
-- 问题2：
-
-2.1 生成500万条数据，存到文件`data500.txt`，取出时间最近的1000条，存到Excel文件中，
-
-2.2 程序运行得很慢，有没有优化的方法？
+- 2.1 运行 mkdate 程序，生成10万条数据 `./mkdate 10 > date10.txt`
+- 2.2 文件的每一行是一个日期，但是这些日期并不都是正确的，你需要修复这些日期。修复采取就近修复的原则；例如：`2010-2-30 6:5:13`，没有2月30日，就近修复到 `2010-3-1 6:5:13`
+- 2.3 把文件中所有恰好是星期日的数据（例如2010-1-31是星期日），存到一个 excel 文件中。注意日期要排序。
+- 2.4 生成500万条数据，存到文件 `./mkdate 500 > date500.txt`，取出时间离今天时间最近的1000条，存到 Excel 文件中。
+- 2.5 500万条数据，程序运行得很慢，有没有优化的方法？
 
 
 
