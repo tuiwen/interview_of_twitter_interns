@@ -4,6 +4,8 @@
 
 - <span style="color:red">以下题目都是编程题，上网查资料完成以下题目；程序和运行**结果截图**，发到  **hr@babelchain.org** 或者微信发给HR小姐姐。</span>
 
+- **<span style="color:red">邮件里只有代码文件和截图，不要发生成的数据文件，excel，word，pdf等。</span>**
+
 - **<span style="color:red">题目不需要全部都做，使用你擅长的编程语言做你会做的题目。</span>**
 
 
