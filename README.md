@@ -53,7 +53,7 @@ https://gitee.com/yangbigrm/interview_of_twitter_interns/tree/master/mkdate
 
    ### $\frac{1}{x}+\frac{1}{y}=\frac{1}{n}$
 
-   例如 $n=6$ 的时候，这个方程有组不同的解：
+   例如 $n=6$ 的时候，这个方程有5组不同的解：
 
    $\frac{1}{7} + \frac{1}{42} = \frac{1}{6}$
 
