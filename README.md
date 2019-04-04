@@ -47,6 +47,9 @@ https://gitee.com/yangbigrm/interview_of_twitter_interns/tree/master/mkdate
 
    $f(0)=f(1)=f(2)=0$
 
+   在屏幕上打印出 f(100) 和 f(100000) 等于多少？
+
+
 
 
 3. 已知$x,y,n$都是整数，满足下面的这个方程：
