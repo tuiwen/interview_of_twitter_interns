@@ -13,7 +13,8 @@
 ### 编程问题
 
 
- 1. 写一个程序，统计一下 C 盘下面有多少个 .dll 文件；如果你是 Mac 或者 Linux 系统，统计一下 /usr 目录下有多少个 .so 文件. ** 注意不能使用 walkFileTree, os.walk 这类直接遍历所有目录的方法，而是要你自己实现它。**
+ 1. 写一个程序，统计一下 C 盘下面有多少个 .dll 文件；如果你是 Mac 或者 Linux 系统，统计一下 /usr 目录下有多少个 .so 文件. 
+ **注意不能使用 walkFileTree, os.walk 这类直接遍历所有目录的方法，而是要你自己实现它。** 
 
 
  2. mkdate 是一个用不同语言写的（Java，C++，Bash，Python，JavaScript），生成随机日期的程序，下载mkdate，完成下面的任务。mkdate 下载链接
