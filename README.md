@@ -30,30 +30,28 @@ https://gitee.com/yangbigrm/interview_of_twitter_interns/tree/master/mkdate
 
 ### 算法
 
-1. 已知一个二叉树的每个节点为 Node {leftChild, rightChild, data}
+第1题 已知一个二叉树的每个节点为 Node {leftChild, rightChild, data}
 
-   写一个程序，分层遍历二叉树
-
-   写一个程序，非递归后续遍历二叉树
-
+```
+先序遍历的结果为: A B D E I J K C F G H
+后序遍历的结果为: B D E I J K C F G H A
+```
+请写代码重建这个二叉树
+<br>
    
 
-2. 写一个程序，计算第n个斐波那契数列。当 n 很大的时候，程序运行很慢，请仔细看下面的程序优化过程，并总结一下都做了哪些优化。
-
-   https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/
-
-   接下来，请模仿上面的链接中给出的6种方法，你需要自己编程实现如下数列的求解：
+第2题 写一个程序，计算下面数列的结果；在屏幕上打印出的要求是精确结果
 
    $f(n) = f(n-1)+f(n-2)+f(n-3)+1$
 
    $f(0)=f(1)=f(2)=0$
 
-   在屏幕上打印出 f(100) 和 f(100000) 等于多少？
+a. f(100)<br>
+b. f(100,000)<br>
+c. f(20,000,000)<br>
+<br>
 
-
-
-
-3. 已知$x,y,n$都是整数，满足下面的这个方程：
+第3题 已知$x,y,n$都是整数，满足下面的这个方程：
 
    ### $\frac{1}{x}+\frac{1}{y}=\frac{1}{n}$
 
@@ -71,8 +69,6 @@ https://gitee.com/yangbigrm/interview_of_twitter_interns/tree/master/mkdate
 
    编程求解问题：
 
-   a. n等于多少的时候，这个方程恰好有100组不同的解
-
-   b. n等于多少的时候，这个方程恰好有1000组不同的解
-
-   c. n等于多少的时候，这个方程恰好有100万组不同的解
+   a. n**最小**等于多少的时候，这个方程恰好有100组不同的解<br>
+   b. n**最小**等于多少的时候，这个方程恰好有1000组不同的解<br>
+   c. n**最小**等于多少的时候，这个方程恰好有100万组不同的解<br>
