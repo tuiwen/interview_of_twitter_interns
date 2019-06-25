@@ -30,13 +30,13 @@ https://gitee.com/yangbigrm/interview_of_twitter_interns/tree/master/mkdate
 
 ### 算法
 
-第1题 已知一个二叉树的每个节点为 Node {leftChild, rightChild, data}
+第1题 已知一个**满二叉树**的每个节点为 Node {leftChild, rightChild, data}
 
 ```
-先序遍历的结果为: A B D E I J K C F G H
-后序遍历的结果为: B D E I J K C F G H A
+先序遍历的结果为: A D E F G H K L B I M C
 ```
 请写代码重建这个二叉树
+
 <br>
    
 
