@@ -34,7 +34,13 @@ JWT 样例
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
 ```
 
-2.
+2. OAuth 是常见的一种第三方授权系统，现在我们需要基于框架自行完成搭建一套自己的 OAuth 登录系统
+
+- OAuth Server 不需要自行实现，直接 [hydra server](https://www.ory.sh/hydra/docs/index)即可
+
+- OAuth 中的用户系统需要自行实现，可以简单验证账号密码为 test/test
+
+- 需要完成第三方 APP 接入 OAuth2.0 登录，获取到对应的授权码和用户信息
 
 ### 算法
 
