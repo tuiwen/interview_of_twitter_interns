@@ -24,7 +24,11 @@
 
 ### 项目实战题
 
-1. JWT（Json web token）是一种常见的应用在分布式微服务、SSO 中的鉴权机制，请使用你熟悉的编程语言完成 JWT 的生成和解析
+#### JWT 加密解析
+
+要求如下：
+
+- JWT（Json web token）是一种常见的应用在分布式微服务、SSO 中的鉴权机制，请使用你熟悉的编程语言完成 JWT 的生成和解析
 
 - 需要自行实现 JWT 的生成和解析，不允许借助其他的第三方库
 
@@ -34,7 +38,13 @@ JWT 样例
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
 ```
 
-2. OAuth 是常见的一种第三方授权系统，现在我们需要基于框架自行完成搭建一套自己的 OAuth 登录系统
+#### OAuth 登录实践
+
+OAuth 是常见的一种第三方授权系统，
+
+现在我们需要基于框架自行完成搭建一套自己的 OAuth 登录系统
+
+要求如下：
 
 - OAuth Server 不需要自行实现，直接 [hydra server](https://www.ory.sh/hydra/docs/index)即可
 
