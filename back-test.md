@@ -2,7 +2,9 @@
 
 ### 说明：
 
-- <span style="color:red">以下题目都是编程题，答题时间为 24 小时，你可以上网、看书、问任何你能问的人；程序和运行**结果截图**，发到 **hr@babelchain.org** 或者微信发给 HR 小姐姐。</span>
+- <span style="color:red">以下题目都是编程题，答题时间为 24 小时，你可以上网、看书、问任何你能问的人；</span>
+   
+- <span style="color:red">完成后请将程序源码 + 运行**结果截图**+ PDF格式简历文件通过电子邮件发到 **hr@funstory.ai** 或者微信发给 HR 小姐姐。</span>
 
 - **<span style="color:red">邮件里只有代码文件和截图，不要发生成的数据文件，excel，word，pdf 等。</span>**
 
