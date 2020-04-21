@@ -3,8 +3,7 @@
 ### 说明：
 
 - <span style="color:red">以下题目都是编程题，答题时间为 24 小时，你可以上网、看书、问任何你能问的人；</span>
-   
-- <span style="color:red">完成后请将程序源码 + 运行**结果截图**+ PDF格式简历文件通过电子邮件发到 **hr@funstory.ai** 或者微信发给 HR 小姐姐。</span>
+- <span style="color:red">完成后请将程序源码 + 运行**结果截图**+ PDF 格式简历文件通过电子邮件发到 **hr@funstory.ai** 或者微信发给 HR 小姐姐。</span>
 
 - **<span style="color:red">邮件里只有代码文件和截图，不要发生成的数据文件，excel，word，pdf 等。</span>**
 
@@ -53,6 +52,14 @@ OAuth 是常见的一种第三方授权系统，
 - OAuth 中的用户系统需要自行实现，可以简单验证账号密码为 test/test
 
 - 需要完成第三方 APP 接入 OAuth2.0 登录，获取到对应的授权码和用户信息
+
+#### 安居客租房数据抓取
+
+租房站点 [https://m.anjuke.com/sh/zf/?from=anjuke_home](https://m.anjuke.com/sh/zf/?from=anjuke_home)
+
+- 自行完成房源数据抓取，存储到本地 json 文件
+
+- 房源价格信息已加密，需要自行完成解密
 
 ### 算法
 
